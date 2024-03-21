@@ -2,7 +2,7 @@
 
 mod atomic_bitset;
 
-use atomic_polyfill::AtomicU32;
+use portable_atomic::AtomicU32;
 use core::cell::UnsafeCell;
 use core::hash::{Hash, Hasher};
 use core::mem::MaybeUninit;
